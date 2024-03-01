@@ -66,7 +66,7 @@ The packages required to run are:
 -mysql2
 -sequelize
 
-A database will need to be created first then seeded wih data
+Create DB first, then seed data.
 
 ## License
 MIT License
