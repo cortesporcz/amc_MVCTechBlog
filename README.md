@@ -93,3 +93,7 @@ SOFTWARE.
 
 ## Credits
 
+https://medium.com/@simmyvarghese5/learn-step-by-step-to-create-an-mvc-application-using-express-js-mvc-series-1-a719f209f5be
+
+
+https://medium.com/@simmyvarghese5/learn-step-by-step-to-create-an-mvc-application-using-express-js-mvc-series-2-77df2f20889d
