@@ -1,4 +1,16 @@
-// Function created that allows users to delete blog posts on dashboard page and then redirect them to an updated dashboard
-// Function created that allows for a user to edit blog posts on dashboard page by redirecting them to the /create/:id page
-// Iterates over all buttons on the page and allows for edit functionality
-// Iterates over all buttons on the page and allows for delete functionality
+// LOG USERS OUT - logging out
+const logout = async () => {
+    const response = await fetch("/api/users/logout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+    });
+  
+    if (response.ok) {
+      document.location.replace("/");
+    } else {
+      alert(response.statusText);
+    }
+  };
+  
+  // Event Listener
+  document.querySelector("#logout").addEventListener("click", logout);

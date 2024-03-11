@@ -1,4 +1,4 @@
-// Function created that allows users to delete blog posts on dashboard page and then redirect them to an updated dashboard
+// DASHBOARD DELETE -Function created that allows users to delete blog posts on dashboard page and then redirect them to an updated dashboard
 const deletePostHandler = async (event) => {
     event.preventDefault();
     console.log("clicked me");

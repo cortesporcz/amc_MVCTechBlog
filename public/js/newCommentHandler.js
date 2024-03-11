@@ -1,4 +1,4 @@
-// Function that allows users to post comments to blog posts
+// Function that allows users to POST COMMENTS to blog posts
 async function newCommentHandler(event) {
     event.preventDefault();
   
