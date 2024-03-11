@@ -5,13 +5,13 @@ header {
   }
   
   body {
-    background-color: #a28089;
+    background-color: grey;
   }
   
   h1 {
     font-family: "Jomolhari", serif;
-    background-color: teal;
-    color: #ffb3c6;
+    background-color: whitesmoke;
+    color: peru;
     padding: 16px;
     margin-bottom: 5px;
   }
