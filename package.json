@@ -8,12 +8,11 @@
     "start": "node server.js",
     "seed": "node seeds/seed.js"
   },
-  
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "bcrypt": "^5.1.1",
     "bootstrap": "^5.2.3",
     "connect-session-sequelize": "^7.1.6",
     "dotenv": "^16.0.3",

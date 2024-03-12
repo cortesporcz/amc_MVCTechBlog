@@ -9,8 +9,8 @@ process.env.DB_NAME,
 process.env.DB_USER,
 process.env.DB_PASSWORD,
 {
-host: 'localhost',    //host name
+host: 'localhost', 
 dialect: 'mysql',    
-port: 3301,          //port number
+port: 3301,          
 });
 module.exports = sequelize;    //Export the sequelize object
